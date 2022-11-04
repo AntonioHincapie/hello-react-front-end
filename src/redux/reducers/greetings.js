@@ -16,7 +16,7 @@ const greetingsReducer = (state = [], action = {}) => {
 
 // Action
 const getGreetings = () => async (dispatch) => {
-  const response = await fetch(URL);
+  const response = await fetch(URL, { mode: 'no-cors' });
   const greeting = await response.json();
   dispatch({
     type: GET_GREETINGS,
