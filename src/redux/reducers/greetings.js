@@ -1,5 +1,5 @@
 // URL
-const URL = 'http://localhost:3000/api/v1/greetings'
+const URL = 'http://localhost:3000/api/v1/greetings';
 
 // Actions
 const GET_GREETINGS = 'redux/reducers/greetings/GET_GREETINGS';
